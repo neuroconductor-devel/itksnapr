@@ -5,12 +5,16 @@ Version: 2.1
 Date: 2016-11-03
 Author: John Muschelli
 Maintainer: John Muschelli <muschellij2@gmail.com>
-Description: This package wraps the ITK-SNAP software for viewing of NIfTI
-    objects.
-Imports:
-    oro.nifti,
-    neurobase,
-    utils
+Description: This package wraps the ITK-SNAP software for viewing of
+        NIfTI objects.
+Imports: oro.nifti, neurobase, utils
 License: GPL-3
 RoxygenNote: 5.0.1.9000
-Remotes: muschellij2/neurobase
+Repository: Neuroconductor-Devel
+Suggests: 
+    covr,
+    testthat
+Remotes:  
+    neuroconductor-devel/oro.nifti@10eb2f8e8995d6c899792440838fcf44e451a4d6,
+    neuroconductor-devel/neurobase@6de4b85b6d3e820d8869519ff65f817b08e3602d
+biocViews: 
